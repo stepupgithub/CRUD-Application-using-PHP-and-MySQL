@@ -50,9 +50,11 @@
 2. (For both Macintosh and Windows users) 
 * Login Username(Email): **anything of your choice**.
 * Login Password: **php123**.  
-                               ----------------------------------------
+
+## Thank you for viewing :)
 
 #### This is my first project in development. Hope you'll like this. Please fork this repository to contribute, just to quench our mutual curiosity. Further improvement will be done soon.  
 
 #### If you find any issue with this program, feel free to report this to my GitHub account, or mail it to: _priteshsahani24@gmail.com_ . Your efforts will be appreciated!
       
+
