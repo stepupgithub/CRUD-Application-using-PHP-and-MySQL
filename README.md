@@ -16,7 +16,7 @@
 
 ## Requirements
 * Operating system:	Windows | macOS
-* MAMP(A complete package of Database management system and Web Server )**[RECOMMENDED]**
+* MAMP-A complete package of Database management system(MySQL) and Web Server(Apache) **[RECOMMENDED]**
   MAMP [Download link!](https://www.mamp.info/en/downloads/)
   
 ## Getting Started 
