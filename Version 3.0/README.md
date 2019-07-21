@@ -61,8 +61,31 @@
       _FOREIGN KEY (profile_id)_  
       _REFERENCES Profile (profile_id)_  
       _ON DELETE CASCADE ON UPDATE CASCADE_  
+      _) ENGINE=InnoDB DEFAULT CHARSET=utf8;_  
+      
+      1. 
+      _CREATE TABLE Institution (  
+      _institution_id INTEGER NOT NULL KEY AUTO_INCREMENT,  
+      _name VARCHAR(255),  
+      _UNIQUE(name)  
+      _) ENGINE=InnoDB DEFAULT CHARSET=utf8;  
+      
+      1.  
+      _CREATE TABLE Education (_  
+      _profile_id INTEGER,_  
+      _institution_id INTEGER,_  
+      _rank INTEGER,_  
+      _year INTEGER,_  
+      *CONSTRAINT education_ibfk_1*  
+      _FOREIGN KEY (profile_id)_  
+      _REFERENCES Profile (profile_id)_  
+      _ON DELETE CASCADE ON UPDATE CASCADE,_  
+      *CONSTRAINT education_ibfk_2*  
+      _FOREIGN KEY (institution_id)_  
+      _REFERENCES Institution (institution_id)_  
+      _ON DELETE CASCADE ON UPDATE CASCADE,_  
+      _PRIMARY KEY(profile_id, institution_id)_  
       _) ENGINE=InnoDB DEFAULT CHARSET=utf8;_
-
 
 
  1. We are all set now. **We now go to the previously opened MAMP home page and set the path of our index.php(that we have downloaded) in the url of the page.**  
