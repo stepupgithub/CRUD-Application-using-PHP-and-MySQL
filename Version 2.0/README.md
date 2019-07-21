@@ -3,7 +3,7 @@
 ## Highlights
 1. This is **Version 2.0** of my application. In addition to the first TWO basic functionalities of a complete website, i.e., **CREATE and READ**, this application also provides the functionalities of **UPDATE and DELETE**.  Hence, this is a complete CRUD application.
 1. By using this application a user can create, store, read, update and delete information regarding the name of a vehicle, the year in which if was made, it's model and it's mileage in our Database.(we can maintain multiple records)
-1. This application uses **HTML5** and **Bootstrap** as it's Front End languages and **JQuery** as the JavaScript library.
+1. This application uses **HTML5** and **Bootstrap** as it's Front End languages.
 1. This application uses **PHP 7** as it's Back End language.
 1. All interactions follow the **POST-Redirect** pattern where appropriate.
 1. It prevents any form of **HTML OR SQL Injection**.
