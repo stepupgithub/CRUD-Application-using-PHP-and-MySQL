@@ -73,7 +73,7 @@
 1. (For Macintosh users only)  
 * In the **pdo.php** file, it is stated **port=3306**. Just change it to **port=8889** and save it.  
 2. (For both Macintosh and Windows users) 
-* Login Username(Email): **umsi@umich.edu**.
+* Login Username(Email): **umsi@umich.edu**
 * Login Password: **php123**.  
 
 ## Thank you for viewing :)
