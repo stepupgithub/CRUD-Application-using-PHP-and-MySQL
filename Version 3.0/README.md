@@ -85,7 +85,19 @@
       _REFERENCES Institution (institution_id)_  
       _ON DELETE CASCADE ON UPDATE CASCADE,_  
       _PRIMARY KEY(profile_id, institution_id)_  
-      _) ENGINE=InnoDB DEFAULT CHARSET=utf8;_
+      _) ENGINE=InnoDB DEFAULT CHARSET=utf8;_  
+      
+      1. Paste the commands given below and click on **GO**.  
+      _INSERT INTO Institution (name) VALUES ('University of Michigan');_  
+      _INSERT INTO Institution (name) VALUES ('University of Virginia');_  
+      _INSERT INTO Institution (name) VALUES ('University of Oxford');_  
+      _INSERT INTO Institution (name) VALUES ('University of Cambridge');_  
+      _INSERT INTO Institution (name) VALUES ('Stanford University');_  
+      _INSERT INTO Institution (name) VALUES ('Duke University');_  
+      _INSERT INTO Institution (name) VALUES ('Michigan State University');_  
+      _INSERT INTO Institution (name) VALUES ('Mississippi State University');_  
+      _INSERT INTO Institution (name) VALUES ('Montana State University');_
+
 
 
  1. We are all set now. **We now go to the previously opened MAMP home page and set the path of our index.php(that we have downloaded) in the url of the page.**  
