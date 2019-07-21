@@ -43,7 +43,11 @@
       _PRIMARY KEY(user_id)_  
       _) ENGINE = InnoDB DEFAULT CHARSET=utf8;_  
       _ALTER TABLE users ADD INDEX(email);_  
-      _ALTER TABLE users ADD INDEX(password);_
+      _ALTER TABLE users ADD INDEX(password);_  
+      
+      1. Paste the commands given below and click on **GO**.   
+      _INSERT INTO users (name,email,password)_  
+      _VALUES ('UMSI','umsi@umich.edu','1a52e17fa899cf40fb04cfc42e6352f1');_
       
       1. Paste the commands given below and click on **GO**.    
       _CREATE TABLE Position (_  
@@ -69,7 +73,7 @@
 1. (For Macintosh users only)  
 * In the **pdo.php** file, it is stated **port=3306**. Just change it to **port=8889** and save it.  
 2. (For both Macintosh and Windows users) 
-* Login Username(Email): **anything of your choice**.
+* Login Username(Email): **umsi@umich.edu**.
 * Login Password: **php123**.  
 
 ## Thank you for viewing :)
