@@ -1,7 +1,7 @@
 # CRUD-Application-using_PHP
 
 ## Highlights
-1. This is **Version 2.2** of my CRUD application. This application provides all the basic functionalities of a full stack website,i.e., **CREATE, READ, UPDATE and DELETE**.
+1. This is **Version 2.7** of my CRUD application. This application provides all the basic functionalities of a full stack website,i.e., **CREATE, READ, UPDATE and DELETE**.
 1. By using this application a user can create, store, read, update and delete information regarding the name of a vehicle, the year in which if was made, it's model and it's mileage in our Database.(we can maintain multiple records)
 1. This application uses **HTML5** and **Bootstrap** as it's Front End languages. In addition it contains **JavaScript** for it's client-side data validation along with **JQuery** to provide other functionality.
 1. This application uses **PHP 7** as it's Back End language.
