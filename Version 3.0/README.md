@@ -63,14 +63,14 @@
       _ON DELETE CASCADE ON UPDATE CASCADE_  
       _) ENGINE=InnoDB DEFAULT CHARSET=utf8;_  
       
-      1. 
+      1. Paste the commands given below and click on **GO**.    
       _CREATE TABLE Institution (  
       _institution_id INTEGER NOT NULL KEY AUTO_INCREMENT,  
       _name VARCHAR(255),  
       _UNIQUE(name)  
       _) ENGINE=InnoDB DEFAULT CHARSET=utf8;  
       
-      1.  
+      1. Paste the commands given below and click on **GO**.     
       _CREATE TABLE Education (_  
       _profile_id INTEGER,_  
       _institution_id INTEGER,_  
