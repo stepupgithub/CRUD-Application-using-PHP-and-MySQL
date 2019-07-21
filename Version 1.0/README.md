@@ -1,9 +1,9 @@
 # CRUD-Application-using_PHP
 
 ## Highlights
-1. This is **Version 1** of my application. It provides the first TWO basic functionalities of a complete website, i.e., **CREATE and READ**. 
+1. This is **Version 1.0** of my application. It provides the first TWO basic functionalities of a complete website, i.e., **CREATE and READ**. 
 1. By using this application a user can create and store information regarding the name of a vehicle, the year in which if was made and it's mileage in our Database.(we can maintain multiple records)
-1. This application uses **HTML5**, **Bootstrap and JavaScript** as it's Front End languages and **JQuery** as the JavaScript library.
+1. This application uses **HTML5** and **Bootstrap** as it's Front End language.
 1. This application uses **PHP 7** as it's Back End language.
 1. All interactions follow the **POST-Redirect** pattern where appropriate.
 1. It prevents any form of **HTML OR SQL Injection**.
